@@ -13,8 +13,8 @@ function Footer(){
 
         <div className="social-icons">
 
-          <a href="https://github.com/lohithsaimv"><FaGithub/></a>
-          <a href="https://linkedin.com/in/lohithsaimv"><FaLinkedin/></a>
+          <a href="https://github.com/Sailokesh2212" target="_blank" rel="noreferrer"><FaGithub/></a>
+          <a href="https://www.linkedin.com/in/lohithsaimv" target="_blank" rel="noreferrer"><FaLinkedin/></a>
           <a href="#"><FaInstagram/></a>
 
         </div>

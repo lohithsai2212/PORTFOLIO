@@ -1,6 +1,7 @@
 import { useState } from "react";
 import "./About.css";
 import Skills from "./Skills";
+import profilePhoto from "../../assets/Photo.png";
 
 function About() {
 
@@ -25,13 +26,13 @@ function About() {
             {/* FRONT IMAGE */}
 
             <div className="photo-front">
-              <img src="Photo.png" alt="Lohith Sai M V" />
+              <img src={profilePhoto} alt="Lohith Sai M V" />
             </div>
 
             {/* BACK IMAGE */}
 
             <div className="photo-back">
-              <img src="Photo.png" alt="Lohith Sai M V" />
+              <img src={profilePhoto} alt="Lohith Sai M V" />
             </div>
 
           </div>

@@ -1,4 +1,5 @@
 import "./Hero.css";
+import profilePhoto from "../../assets/Photo.png";
 
 export default function Hero() {
   return (
@@ -25,9 +26,8 @@ export default function Hero() {
           <div className="hero-photo-wrapper">
             <div className="photo-space">
               {/* This is where your profile photo goes */}
-              <div className="photo-placeholder">
-                <i className="fas fa-user"></i>
-                <span>Profile Photo</span>
+              <div className="photo-img-container">
+                <img src={profilePhoto} alt="Lohith Sai" className="hero-photo" />
               </div>
             </div>
           </div>
