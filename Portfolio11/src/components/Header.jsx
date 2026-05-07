@@ -25,7 +25,7 @@ function Header() {
     return (
         <header className={scrolled ? "header scroll" : "header"}>
             <div className="logo">
-                <h1><span>S</span>ai</h1>
+                <h1>&lt; <span>sai</span> /&gt;</h1>
             </div>
 
             <ul className="links">
