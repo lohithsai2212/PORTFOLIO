@@ -15,7 +15,7 @@ export default function Hero() {
           <div className="hero-buttons">
             <a href="#contact" className="hero-btn">Contact Me</a>
             <a href="#about" className="hero-btn">About Me</a>
-            <a href="/resume.pdf" className="hero-btn resume-btn">
+            <a href="/resume.pdf" className="hero-btn resume-btn" download="Lohith_Sai_Resume.pdf">
               <i className="fas fa-download"></i> Resume
             </a>
           </div>
