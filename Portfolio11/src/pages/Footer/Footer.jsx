@@ -1,5 +1,5 @@
 import "./Footer.css"
-import { FaGithub, FaLinkedin, FaInstagram } from "react-icons/fa";
+import { FaGithub, FaLinkedin, FaGamepad } from "react-icons/fa";
 
 function Footer(){
 
@@ -13,9 +13,9 @@ function Footer(){
 
         <div className="social-icons">
 
-          <a href="https://github.com/Sailokesh2212" target="_blank" rel="noreferrer"><FaGithub/></a>
-          <a href="https://www.linkedin.com/in/lohithsaimv" target="_blank" rel="noreferrer"><FaLinkedin/></a>
-          <a href="#"><FaInstagram/></a>
+          <a href="https://github.com/Sailokesh2212" target="_blank" rel="noreferrer" title="GitHub"><FaGithub/></a>
+          <a href="https://www.linkedin.com/in/lohithsaimv" target="_blank" rel="noreferrer" title="LinkedIn"><FaLinkedin/></a>
+          <a href="https://www.codingame.com/profile/7d7c93bfeb86ed24599ec7a36e8ba1257023376" target="_blank" rel="noreferrer" title="CodinGame"><FaGamepad/></a>
 
         </div>
 

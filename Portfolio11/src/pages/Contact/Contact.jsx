@@ -25,7 +25,7 @@ function Contact() {
 
           <div className="info-item">
             <FaEnvelope className="contact-icon"/>
-            <span>lohithsaimv@gmail.com</span>
+            <span>lohithsai.mv01@gmail.com</span>
           </div>
 
           <div className="info-item">
@@ -42,21 +42,36 @@ function Contact() {
 
         {/* RIGHT FORM */}
 
-        <form className="contact-form">
+        <form 
+          className="contact-form" 
+          action="https://formsubmit.co/lohithsai.mv01@gmail.com" 
+          method="POST"
+        >
+          {/* Honeypot to prevent spam */}
+          <input type="text" name="_honey" style={{display: 'none'}} />
+          
+          {/* Disable Captcha for a smoother experience */}
+          <input type="hidden" name="_captcha" value="false" />
+
+          {/* Success Page Redirection (Optional) */}
+          {/* <input type="hidden" name="_next" value="https://yourdomain.com/thanks.html" /> */}
 
           <input
             type="text"
+            name="name"
             placeholder="Your Name"
             required
           />
 
           <input
             type="email"
+            name="email"
             placeholder="Your Email"
             required
           />
 
           <textarea
+            name="message"
             placeholder="Your Message"
             rows="6"
             required

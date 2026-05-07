@@ -1,59 +1,47 @@
 import "./Project.css";
 
-import img1 from "../../assets/images/Cleveroad.jpg";
-import img2 from "../../assets/images/Capture d'écran 2025-10-22 182207.png";
+import img1 from "../../assets/images/carbon_engine.png";
+import img2 from "../../assets/images/recommendation_engine.png";
 import img3 from "../../assets/images/Weather Forecast Dashboard.jpg";
 import img4 from "../../assets/images/WordPress dashboard design concept.jpg";
-import img5 from "../../assets/images/Game Dashboard Design.jpg";
+import img5 from "../../assets/images/portfolio_screenshot.png";
 import img6 from "../../assets/images/Task manager app.jpg";
 
 const projects = [
   {
-    title: "Workload Orchestration & Carbon Optimization Engine",
+    title: "Workload Orchestration",
     img: img1,
-    desc: "ML-driven scheduling system using LSTM and XGBoost to predict workload demand and renewable energy availability with 92% accuracy.",
+    desc: "Production-grade ML-driven scheduling system using LSTM and XGBoost to predict demand and renewable energy with 92% accuracy.",
     skills: ["Python", "Kubernetes", "LSTM"]
   },
   {
-    title: "High-Performance Recommendation Engine",
+    title: "Recommendation Engine",
     img: img2,
-    desc: "Scalable recommendation system serving 4,700+ items using hybrid filtering with TF-IDF vectorization.",
+    desc: "High-performance recommendation system using hybrid filtering and TF-IDF to serve personalized content from a library of 4,700+ items.",
     skills: ["Pandas", "NumPy", "Scikit-learn"]
   },
   {
     title: "E-Commerce Website",
-    img: img1,
-    desc: "Modern online store with product filtering, cart, and payment system.",
+    img: img4,
+    desc: "Modern e-commerce platform featuring advanced product filtering, a robust shopping cart system, and secure payment integration.",
     skills: ["HTML", "CSS", "JavaScript"]
   },
   {
     title: "Portfolio Website",
-    img: img2,
-    desc: "Personal portfolio to showcase my design and coding projects.",
+    img: img5,
+    desc: "Premium, responsive portfolio designed to showcase backend expertise through interactive components and high-quality visualizations.",
     skills: ["HTML", "CSS", "Bootstrap"]
   },
   {
     title: "Weather App",
     img: img3,
-    desc: "Responsive app showing real-time weather data using API integration.",
+    desc: "Real-time weather monitoring dashboard integrated with meteorological APIs, featuring responsive data visualizations and forecasting.",
     skills: ["HTML", "CSS", "API"]
-  },
-  {
-    title: "Blog Website",
-    img: img4,
-    desc: "Clean and simple blogging platform with markdown support.",
-    skills: ["HTML", "Tailwind", "JavaScript"]
-  },
-  {
-    title: "Game Landing Page",
-    img: img5,
-    desc: "Landing page for a game with animations and parallax effects.",
-    skills: ["HTML", "CSS", "GSAP"]
   },
   {
     title: "Task Manager",
     img: img6,
-    desc: "Task tracking web app with CRUD features and clean UI.",
+    desc: "Sophisticated task management application with full CRUD capabilities, focusing on productivity through minimalist UI and state management.",
     skills: ["HTML", "CSS", "JS"]
   }
 ];
