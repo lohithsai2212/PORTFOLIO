@@ -52,14 +52,15 @@ body{
 /* LOGO */
 
 .logo h1{
-    color:#ddd;
-    letter-spacing:2px;
-    font-size:24px;
-    font-weight:600;
+    color:#fff;
+    letter-spacing:1px;
+    font-size:26px;
+    font-weight:700;
+    font-family: 'Inter', sans-serif;
 }
 
 .logo h1 span{
-    color:#777777;
+    color:#00d2ff;
 }
 
 /* LINKS */
