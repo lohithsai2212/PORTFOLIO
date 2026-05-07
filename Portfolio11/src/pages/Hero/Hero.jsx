@@ -1,5 +1,7 @@
 import "./Hero.css";
 import profilePhoto from "../../assets/Photo.png";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faDownload } from "@fortawesome/free-solid-svg-icons";
 
 export default function Hero() {
   return (
@@ -16,7 +18,7 @@ export default function Hero() {
             <a href="#contact" className="hero-btn">Contact Me</a>
             <a href="#about" className="hero-btn">About Me</a>
             <a href="/resume.pdf" className="hero-btn resume-btn" download="Lohith_Sai_Resume.pdf">
-              <i className="fas fa-download"></i> Resume
+              Resume <FontAwesomeIcon icon={faDownload} />
             </a>
           </div>
         </div>
