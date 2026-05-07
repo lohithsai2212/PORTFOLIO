@@ -29,12 +29,13 @@
     align-items:center;
     justify-content:center;
     gap:80px;
+    margin-bottom: 60px;
 }
 
 
 .photo-card{
-    width:320px;
-    height:420px;
+    width:280px;
+    height:380px;
     perspective:1000px;
     cursor:pointer;
 }

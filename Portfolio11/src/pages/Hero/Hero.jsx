@@ -40,7 +40,7 @@ export default function Hero() {
             
             <div className="info-block">
               <label>SPECIALISING IN</label>
-              <p>React • Node.js<br/>TypeScript • Python</p>
+              <p>Python • FastAPI<br/>MySQL • REST APIs</p>
             </div>
             
             <div className="info-block">
